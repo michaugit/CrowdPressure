@@ -1,0 +1,23 @@
+.root {
+    -fx-base: #808080;
+    -fx-background: #808080;
+    -fx-color: derive(-fx-base, 10%);
+    -fx-control-inner-background: #323232;
+    -fx-control-inner-background-alt: derive(-fx-control-inner-background, 50%);
+    -fx-accent: #b0e0e6;
+}
+
+BorderPane {
+    -fx-background-color: #ffffff;
+}
+
+Button {
+    -fx-background-color: #808080;
+    -fx-text-fill : rgb(0, 80, 100);
+    -fx-background-color: linear-gradient(#808080, #dcdcdc);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+Button:hover {
+    -fx-background-color: linear-gradient(#b0e0e6, #2A5058);
+}

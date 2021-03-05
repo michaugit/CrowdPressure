@@ -1,0 +1,31 @@
+.root {
+    -fx-base: #262626;
+    -fx-background: #262626;
+    -fx-color: derive(-fx-base, 20%);
+    -fx-font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    -fx-text-base-color: #ffffff;
+    /*-fx-text-base-color: #06cee0;*/
+    -fx-control-inner-background: #323232;
+    -fx-control-inner-background-alt: derive(-fx-color, 2.5%);
+    -fx-control-inner-text-base-color: #000000;
+    -fx-accent: #4d4d4d;
+}
+
+BorderPane {
+    /*-fx-background-color:  #666666;*/
+    -fx-background-color:  #ffffff;
+}
+
+Button {
+    -fx-text-fill: #ffffff;
+    /*-fx-font-weight: bold;*/
+    /*-fx-background-color: linear-gradient(#262626, #666666);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );*/
+    -fx-background-color: #408cff;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+Button:hover {
+    -fx-background-color: #66a3ff;
+    /*-fx-background-color: linear-gradient(#808080, #333333);*/
+}
